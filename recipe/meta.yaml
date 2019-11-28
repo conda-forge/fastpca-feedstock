@@ -25,6 +25,7 @@ requirements:
     - libcblas
     - liblapack
     - liblapacke
+    - llvm-openmp
 
   run:
     - boost-cpp
