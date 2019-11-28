@@ -18,6 +18,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
+    - llvm-openmp
 
   host:
     - boost-cpp
@@ -25,7 +26,6 @@ requirements:
     - libcblas
     - liblapack
     - liblapacke
-    - llvm-openmp
 
   run:
     - boost-cpp
