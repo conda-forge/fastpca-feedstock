@@ -11,13 +11,14 @@ source:
 
 build:
   number: 0
-  skip: True  # [win or osx]
+  skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
+    - llvm-openmp
 
   host:
     - boost-cpp
