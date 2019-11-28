@@ -1,3 +1,5 @@
+export C_INCLUDE_PATH="$PREFIX/include:$C_INCLUDE_PATH"
+
 mkdir build && cd build
 cmake ..
 echo "CXX_INCLUDES = -isystem $PREFIX/include" >> $SRC_DIR/build/src/CMakeFiles/fastpca.dir/flags.make
