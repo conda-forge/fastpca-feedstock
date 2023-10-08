@@ -18,7 +18,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - cmake
-
+    - make   # [linux]
   host:
     - libboost-devel
     - libblas
